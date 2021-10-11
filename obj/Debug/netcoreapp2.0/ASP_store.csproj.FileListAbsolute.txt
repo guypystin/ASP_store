@@ -11,3 +11,17 @@ C:\Users\guypy\YandexDisk\repos2\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.csp
 C:\Users\guypy\YandexDisk\repos2\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.dll
 C:\Users\guypy\YandexDisk\repos2\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.pdb
 C:\Users\guypy\YandexDisk\repos2\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.genruntimeconfig.cache
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\bin\Debug\netcoreapp2.0\ASP_store.deps.json
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\bin\Debug\netcoreapp2.0\ASP_store.runtimeconfig.json
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\bin\Debug\netcoreapp2.0\ASP_store.runtimeconfig.dev.json
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\bin\Debug\netcoreapp2.0\ASP_store.dll
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\bin\Debug\netcoreapp2.0\ASP_store.pdb
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.csproj.AssemblyReference.cache
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.AssemblyInfoInputs.cache
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.AssemblyInfo.cs
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.csproj.CoreCompileInputs.cache
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.dll
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.pdb
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.genruntimeconfig.cache
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\bin\Debug\netcoreapp2.0\appsettings.json

@@ -5,11 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bower" Version="1.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+	<DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
   </ItemGroup>
 
 </Project>

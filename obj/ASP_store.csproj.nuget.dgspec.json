@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guypy\\YandexDisk\\repos2\\ASP_store\\ASP_store.csproj": {}
+    "C:\\Users\\guypy\\OneDrive\\Рабочий стол\\ASP_store\\ASP_store.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guypy\\YandexDisk\\repos2\\ASP_store\\ASP_store.csproj": {
+    "C:\\Users\\guypy\\OneDrive\\Рабочий стол\\ASP_store\\ASP_store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guypy\\YandexDisk\\repos2\\ASP_store\\ASP_store.csproj",
+        "projectUniqueName": "C:\\Users\\guypy\\OneDrive\\Рабочий стол\\ASP_store\\ASP_store.csproj",
         "projectName": "ASP_store",
-        "projectPath": "C:\\Users\\guypy\\YandexDisk\\repos2\\ASP_store\\ASP_store.csproj",
+        "projectPath": "C:\\Users\\guypy\\OneDrive\\Рабочий стол\\ASP_store\\ASP_store.csproj",
         "packagesPath": "C:\\Users\\guypy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guypy\\YandexDisk\\repos2\\ASP_store\\obj\\",
+        "outputPath": "C:\\Users\\guypy\\OneDrive\\Рабочий стол\\ASP_store\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "dependencies": {
+            "Bower": {
+              "target": "Package",
+              "version": "[1.2.7, )"
+            },
             "Microsoft.AspNetCore.All": {
               "target": "Package",
               "version": "[2.0.9, )"

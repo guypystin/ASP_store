@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ugjs0WyOmWgWnadFQEAPo08CIilipkq6T7lFuBE2y6I4Zg7RU7svwCF6AjnwVkztxBgSTiFgxBcTUHw+yg3pbg==",
+  "dgSpecHash": "raeNiH9+hchkgHeOGGrePN0MoAAYTWTf89keT4Bz8QqjvDoKl3tdvwTAEvE0Du4gI2UbMW59XeOaFiIFNXad7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guypy\\YandexDisk\\repos2\\ASP_store\\ASP_store.csproj",
+  "projectFilePath": "C:\\Users\\guypy\\OneDrive\\Рабочий стол\\ASP_store\\ASP_store.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\guypy\\.nuget\\packages\\bower\\1.2.7\\bower.1.2.7.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.applicationinsights.aspnetcore\\2.1.1\\microsoft.applicationinsights.aspnetcore.2.1.1.nupkg.sha512",
@@ -174,6 +175,7 @@
     "C:\\Users\\guypy\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\guypy\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\guypy\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\guypy\\.nuget\\packages\\node.js\\0.10.21\\node.js.0.10.21.nupkg.sha512",
     "C:\\Users\\guypy\\.nuget\\packages\\remotion.linq\\2.1.1\\remotion.linq.2.1.1.nupkg.sha512",
     "C:\\Users\\guypy\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\guypy\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

@@ -27,6 +27,7 @@
     ".NETCoreApp,Version=v2.0": {
       "ASP_store/1.0.0": {
         "dependencies": {
+          "Bower": "1.2.7",
           "Microsoft.AspNetCore.All": "2.0.9",
           "Microsoft.NETCore.App": "2.0.0"
         },
@@ -35,6 +36,11 @@
         },
         "compile": {
           "ASP_store.dll": {}
+        }
+      },
+      "Bower/1.2.7": {
+        "dependencies": {
+          "Node.js": "0.10.21"
         }
       },
       "Libuv/1.10.0": {
@@ -2829,6 +2835,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Node.js/0.10.21": {},
       "Remotion.Linq/2.1.1": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -4274,6 +4281,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Bower/1.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+Uii4ydg+yZh1DzPs2ImYg6JN/3+aQrYl1NSs5UCWYsZKgKwBtEA/NFEc+Tc5DlwDkZd/sJGRNsEEW2pyncJA==",
+      "path": "bower/1.2.7",
+      "hashPath": "bower.1.2.7.nupkg.sha512"
+    },
     "Libuv/1.10.0": {
       "type": "package",
       "serviceable": true,
@@ -5421,6 +5435,13 @@
       "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
+    },
+    "Node.js/0.10.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rVwm8QneMzNmg71xPnIrINi/VII5AqVdjQ1PpWSUFebVxar8RiiQMGaCbcuZYgBobtkfQYE3ncsLz5IcU/5sdw==",
+      "path": "node.js/0.10.21",
+      "hashPath": "node.js.0.10.21.nupkg.sha512"
     },
     "Remotion.Linq/2.1.1": {
       "type": "package",
