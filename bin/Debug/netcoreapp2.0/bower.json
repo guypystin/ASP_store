@@ -1,0 +1,23 @@
+{
+  "name": "ASP_bower",
+  "homepage": "https://github.com/guypystin/ASP_store",
+  "authors": [
+    "guypystin <guypystin@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  },
+  "resolutions": {
+    "bootstrap": "4.0.0"
+  }
+}

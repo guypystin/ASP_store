@@ -25,3 +25,4 @@ C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.
 C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.pdb
 C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\obj\Debug\netcoreapp2.0\ASP_store.genruntimeconfig.cache
 C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\guypy\OneDrive\Рабочий стол\ASP_store\bin\Debug\netcoreapp2.0\bower.json

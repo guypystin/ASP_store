@@ -26,37 +26,54 @@ namespace ASP_store
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=(localdb)\\SQLSERVER; Database=ASPStore; User ID='sa'; Password='sa'"));
             services.AddTransient<IProductRepository, EFProductRepository>();
             services.AddMvc();
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseDeveloperExceptionPage();
                 app.UseStatusCodePages();
                 app.UseStaticFiles();
+                app.UseSession();
                 app.UseMvc(routes =>
                 {
                     routes.MapRoute(
-                        name: "pagintaion",
-                        template: "Products/Page{productPage}",
-                        defaults: new { Controller = "Product", action = "List" }
+                        name: null,
+                        template: "{category}/Page{productPage:int}",
+                        defaults: new { controller = "Product", action = "List" }
                         );
                     routes.MapRoute(
-                        name: "default",
-                        template: "{controller=Product}/{action=List}/{id?}"
+                        name: null,
+                        template: "Page{productPage:int}",
+                        defaults: new { controller = "Product", action = "List", productPage = 1 }
                         );
+                    routes.MapRoute(
+                        name: null,
+                        template: "{category}",
+                        defaults: new { controller = "Product", action = "List", productPage = 1 }
+                        );
+                    routes.MapRoute(
+                        name: null,
+                        template: "",
+                        defaults: new { Controller = "Product", action = "List", productPage = 1 }
+                        );
+                    routes.MapRoute(name: null, template: "{controller}/{action}/{id?}");
                 });
+                
+                SeedData.EnsurePopulated(app);
             }
-            
+             
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
             });
-            SeedData.EnsurePopulated(app);
+            
         }
     }
 }
