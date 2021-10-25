@@ -2,13 +2,10 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using ASP_store.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace ASP_store
 {
@@ -25,6 +22,10 @@ namespace ASP_store
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=(localdb)\\SQLSERVER; Database=ASPStore; User ID='sa'; Password='sa'"));
             services.AddTransient<IProductRepository, EFProductRepository>();
+            //services.AddHttpContextAccessor();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<IOrderRepository, EFOrderRepository>();
             services.AddMvc();
             services.AddMemoryCache();
             services.AddSession();
